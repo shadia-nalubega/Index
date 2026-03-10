@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sales register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="./sales management.html"> sales management</a>
+        </div>
+        <div>
+          <a href="./supplier register.html">supplier management</a>
+        </div>
+      </div>
+      <div class="content">
+        <form class="action">
+          <section>
+            <h1>Sales Registration</h1>
+
+            <div class="input-container">
+              <div class="input-section">
+                <label for="sales date"> Sales date</label>
+                <input type="date" />
+              </div>
+
+              <div class="input-section">
+                <label for="sales person"> Sales person</label>
+                <select>
+                  <option value="" disable selected>
+                    select a representative
+                  </option>
+                  <option value="1">shadia</option>
+                  <option value="2">shirat</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Customer Details</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="Name"> Name</label>
+                <input type="text" id="name" placeholder="Enter Full Name" />
+              </div>
+
+              <div class="input-section">
+                <label for="Phone Number"> Phone Number</label>
+                <input
+                  type="number"
+                  id="Phone"
+                  placeholder="Enter Phone Number"
+                />
+              </div>
+            </div>
+            <br />
+
+            <div class="input-container">
+              <div class="input-section">
+                <label for="Email">Email</label>
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="input-section">
+                <label for="ctype"> Customer Type</label>
+                <select>
+                  <option value="select customer type">
+                    select customer type
+                  </option>
+                  <option value="potential Customer">potential Customer</option>
+                  <option value="Real customers">Real customers</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <h2>Items</h2>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="Pdt Id">Pdt Id</label>
+              <input type="text" />
+            </div>
+
+            <div class="input-section">
+              <label for="Quantity">Quantity</label>
+              <input type="text" />
+            </div>
+
+            <div class="input-section">
+              <label for="Unit Price">Unit Price</label>
+              <input type="text" />
+            </div>
+          </div>
+          <br />
+
+          <div class="input-container">
+            <div class="input-section">
+              <label for="Pdt Id">Pdt Id</label>
+              <input type="text" />
+            </div>
+            <br />
+
+            <div class="input-section">
+              <label for="Quantity">Quantity</label>
+              <input type="text" />
+            </div>
+
+            <div class="input-section">
+              <label for="Unit Price">Unit Price</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="button">
+            <div class="Cancel">
+              <button type="button" value="Cancel">Cancel</button>
+            </div>
+            <div class="submit">
+              <button type="button" value="submit">submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

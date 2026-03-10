@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex: 3;
+    /* max-width: 500px; */
+}
+.sidebar{
+    flex: 1;
+    border-right:  1px solid grey;
+    padding: 20px;
+}
+.content{
+    flex: 3;
+    /* flex-direction: column; */
+    width: 100%;
+    /* border: 1px solid grey; */
+    /* border-radius: 15px; */
+    margin: 50px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+.input-section{
+    display: flex;    
+    margin: 10px;
+flex-direction: column;
+flex: 2 ;
+
+}
+h1, h2{
+    text-align: center;
+margin-bottom: 20px;
+}
+.action{
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 30px;
+    height: 120vh;
+    width: 90%;
+}
+input{
+   width: 100%;
+    border-radius: 5px;
+    /* margin-right: 50px; */
+    height: 30px;
+}
+.input-container{
+    display: flex;
+    /* flex: 2
+    ; */
+gap: 30px;
+margin-bottom: 20px;
+/* height: 100vh; */
+}
+select{
+    margin-right: 50px;
+    height: 30px;
+    width: 100%;
+}
+.button{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.submit{
+    background-color: rgb(10, 10, 211);
+}
+.cancel{
+    color: rgb(36, 36, 223);
+}
