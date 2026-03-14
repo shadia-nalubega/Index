@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./stock.css" />
+  </head>
+  <body>
+    <div class="page">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../images/harm.png" alt="Logo" width="120px" />
+            Nyondostock
+          </a>
+        </div>
+      </nav>
+      <form action="" class="form">
+        <!-- first -->
+        <h1>Stock Registration Form</h1>
+        <div class="col-tab">
+          <!-- <input type="text" class="form-control" value="Stock Details" /> -->
+           <h5> Stock Details</h5>
+        </div>
+        <div class="stockdetails">
+          <div class="input-container">
+            <div>
+              <label for="Address"> Item Name</label>
+              <input type="text" class="input-field" />
+            </div>
+            <div>
+              <label for="Email"> Item Code/SKU</label>
+              <input type="email" class="input-field" />
+            </div>
+          </div>
+          <br />
+          <div>
+            <label for="Email"> Category</label>
+            <!-- <input type="email" class="input-field" /> -->
+            <select>
+              <option value="select customer type">select Category</option>
+              <option value="potential Customer">
+                Building Materials & Cement
+              </option>
+              <option value="Real customers">Plumbing Supplies</option>
+              <option value="Real customers">
+                Paint and Finishing Supplies
+              </option>
+              <option value="Real customers">Garden and Safety Supplies</option>
+              <option value="Real customers">
+                8. Household and Miscellaneous
+              </option>
+            </select>
+          </div>
+          <br />
+          <div class="description">
+            <label for="Email">Description</label>
+            <input type="email" class="input-field" style="width: 70%" />
+          </div>
+          <br />
+          <!-- secondsection -->
+          <div class="col-tab">
+            <!-- <input type="text" class="form-control" value="Quantity & Units" /> -->
+             <h5>Quantity & Units</h5>
+          </div>
+          <div class="quantitydetails">
+            <div class="input-container">
+              <div>
+                <label for="Address"> Intial Quantity</label>
+                <input type="text" class="input-field" />
+              </div>
+              <div>
+                <label for="Email"> Unit Of Measure</label>
+                <!-- <input type="email" class="input-field" /> -->
+                <select>
+                  <option value="select customer type">select Unit</option>
+                  <option value="potential Customer">Grams</option>
+                  <option value="Real customers">litres</option>
+                  <option value="Real customers">tonnes</option>
+                  <option value="Real customers">cans</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- thirdsection -->
+          <div class="col-tab">
+            <!-- <input type="text" class="form-control" value="Pricing" /> -->
+             <h5> Pricing</h5>
+          </div>
+          <div class="pricing">
+            <div class="input-container">
+              <div>
+                <label for="Address"> Purchase Price</label>
+                <input type="text" class="input-field" />
+              </div>
+              <div>
+                <label for="Email"> Selling Price</label>
+                <input type="email" class="input-field" />
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- fourthsection -->
+          <div class="col-tab">
+            <!-- <input
+              type="text"
+              class="form-control"
+              value="Supplier Information"
+            /> -->
+            <h5> Supplier Information</h5>
+          </div>
+          <br />
+          <div class="supplier">
+            <div>
+              <label for="Company">Supplier Name</label>
+              <input type="text" class="input-field" style="width: 70%" />
+            </div>
+            <br />
+            <div>
+              <label for="Company">Contact Person</label>
+              <input type="text" class="input-field" style="width: 70%" />
+            </div>
+            <br />
+            <div>
+              <label for="Company">Email /Tel </label>
+              <input type="text" class="input-field" style="width: 70%" />
+            </div>
+            <br />
+            <div>
+              <label for="Company">Payment Terms</label>
+              <input type="text" class="input-field" />
+            </div>
+            <br />
+          </div>
+
+          <!-- fifthsection -->
+          <div class="col-tab">
+            <!-- <input
+              type="text"
+              class="form-control"
+              value="Compliance/Tracking"
+            /> -->
+            <h5> Compliance/Tracking</h5>
+          </div>
+            <div class="Compliance">
+              <div class="input-container">
+                <div>
+                  <label for="Address">Date Of Entry</label>
+                  <input type="date" class="input-field" />
+                </div>
+                <div>
+                  <label for="Email"> Serial No</label>
+                  <input type="email" class="input-field" />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div>
+              <label for="Email"> Warehouse</label>
+              <input type="email" class="input-field" />
+            </div>
+          
+          <br />
+          <!-- last -->
+           <div class="button">
+          <button type="button" class="btn btn-primary btn-sm">
+            Register Stock
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary btn-sm text-align center"
+          >
+            Clear form
+          </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
