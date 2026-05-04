@@ -1,0 +1,58 @@
+.parent{
+    width: auto;
+}
+.card{
+    width: 38%;
+    margin: 50px 100px 50px 450px;
+    height: 100vh;
+    padding: 80px 20px 100px 20px;
+    border-radius: 20px;
+}
+.btn{
+    width: 100%;
+    background-color: rgb(97, 22, 236);
+    height: 7vh;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+form{
+    margin-top: 30px;
+}
+body{
+    /* background: linear-gradient(to bottom right, #010244, #7802cc); */
+    /* background: linear-gradient(to bottom, #2b004f, #7b00ff); */
+    /* background: linear-gradient(to bottom, #240242, #420296, #7d2ac5);
+     */
+     background: linear-gradient(#1E003E ,#340074,  #4800A2);
+     
+
+}
+input{
+    height: 7vh;
+    /* background: rgb(129, 126, 126); */
+}
+.btn:hover {
+  background-color: #6a11cb;
+  border-color: #6a11cb;
+  box-shadow: none;
+}
+input[placeholder]{
+    background-color: rgb(228, 221, 221);
+}
+p{
+    text-align: center;
+}
+
+.container{
+    background: linear-gradient(to bottom, #40e0d0, #b2fefa);
+    background-image: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.2), transparent 40%),
+                  radial-gradient(circle at 80% 30%, rgba(255,255,255,0.2), transparent 40%);
+
+}

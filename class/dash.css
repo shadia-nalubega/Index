@@ -1,0 +1,117 @@
+.toggle{
+    flex-direction: column;
+    display: flex;
+  
+}
+.initial{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.parent{
+    margin: 100px 200px 100px 200px;
+    background: #1D2629;
+   
+    
+}
+.icon{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.card{
+   width: 30%;
+   margin: 20px;
+   background-color: #252B41;
+    
+}
+h2,h3{
+     color: white;
+     text-align: center;
+}
+p,h6{
+    color: rgb(123, 123, 126);
+     text-align: center;
+}
+.at{
+    text-align: center;
+    font-size: 12px;
+    
+}
+body{
+    background-color: #1D2629;
+}
+.Today{
+    color: aquamarine;
+}
+.bird{
+    color: #206FBB;
+    margin-left: 50px;
+}
+.face{
+    color: rgb(1, 1, 24);
+    background-color: #206FBB;
+    width: 12px;
+    height: 18px;
+     margin-left: 50px;
+}
+.box{
+    color: orange;    
+     margin-left: 50px;
+}
+.you{
+    color: red;    
+     margin-left: 50px;
+}
+.Today1{
+    color: red;
+}
+h4{
+    color: white;
+    margin-left: 20px;
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    color: white;
+}
+.text{
+    display: flex;
+     justify-content: space-between;
+    margin: 15px;
+    color: white;
+}
+.top1,.top2{
+    height: 5px;
+    background-color: #206FBB;
+    margin-bottom: 10px;
+}
+.top3{
+    height: 5px;
+    background-color:orange;
+    margin-bottom: 10px;
+}
+.top4{
+     height: 5px;
+    background-color:red;
+    margin-bottom: 10px;
+}
+.tabs{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.fast{
+    
+     align-items:justify ;
+}
+.fa-toggle-on{
+    width: 100px;
+}
+
