@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadia</title>
+    <link rel="stylesheet" href="./supplier-register.css" />
+  </head>
+
+  <body>
+    <section class="content">
+      <form>
+        <div class="parent-container">
+          <section class="header">
+            <h1>
+              Supplier<br />
+              Registration Form
+            </h1>
+            <p>Nyondo Hardware</p>
+          </section>
+          <div>
+            <p style="text-align: center">
+              PLEASE COMPLETE IN BLOCK LETTERS ENGLISH
+            </p>
+
+            <h3>COMPANY DETAILS</h3>
+            <div>
+              <label for="Company">Company Name</label>
+              <input type="text" class="input-field" />
+            </div>
+            <br />
+            <div class="input-container">
+              <div>
+                <label for="Address"> Address</label>
+                <input
+                  type="text"
+                  placeholder="Input your Address"
+                  class="input-field"
+                />
+              </div>
+              <div>
+                <label for="Email"> Email</label>
+                <input
+                  type="email"
+                  placeholder="Input your Email"
+                  class="input-field"
+                />
+              </div>
+            </div>
+            <br />
+            <div>
+              <label for="purchase order number">Purchase Order Number</label>
+              <input type="text" class="input-field" />
+            </div>
+            <br />
+            <div class="input-container">
+              <div>
+                <label for="TRN/VAT No"> TRN/VAT No</label>
+                <input
+                  type="text"
+                  placeholder="Input your TRN/VAT No"
+                  class="input-field"
+                />
+              </div>
+              <div>
+                <label for="invoice">Invoice </label>
+                <input type="text" placeholder="Invoice" class="input-field" />
+              </div>
+            </div>
+            <br />
+            <div>
+              <label for="tel">Phone Number</label>
+              <input type="text" class="input-field" />
+            </div>
+          </div>
+          <div>
+            <div class="last">
+              <div>
+                <h2>Payment Method</h2>
+                <input
+                  type="checkbox"
+                  id="bank"
+                  name="bank"
+                  value="By bank transfer/ Net banking"
+                />
+                <label for="bank">By bank transfer/ Net banking</label><br />
+                <p>please quote your invoice number and company name</p>
+                <input
+                  type="checkbox"
+                  id="cheque"
+                  name="cheque"
+                  value="By cheque"
+                />
+                <label for="cheque">By cheque</label><br />
+                <p>please courier your cheque to standbic bank.</p>
+                <input type="checkbox" id="cash" name="cash" value="cash" />
+                <label for="cash">By cash</label><br />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="buttons">
+              <button>Register</button>
+
+              <button>Reset</button>
+            </div>
+          </div>
+
+          <p>copyright shadia 2026</p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

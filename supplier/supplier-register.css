@@ -1,0 +1,44 @@
+.parent-container{
+    background-color:beige;
+    margin: 40px;
+    width: 70%;
+    /* height: 120vh; */
+    padding: 10px;
+    
+}
+.header{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    /* width: 60%; */
+}
+.input-container{
+    display: flex;
+    
+}
+.content{
+    border: 1px solid grey;
+    padding: 40px;
+}
+.input-field{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+}
+.footer{
+border: 1px solid grey;
+align-items: center;
+text-align: center;
+gap: 50px;
+border-radius: 10px;
+}
+/* button{
+    text-align: center;
+    gap: 50px;
+} 
+*/
+.last{
+    padding: 50px;
+}
